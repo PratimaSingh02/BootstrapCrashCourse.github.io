@@ -1,0 +1,23 @@
+body::before{
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+#map{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+@media(max-width: 641px){
+    #name{
+        width:15%;
+    }
+}
+
+@media(min-width: 768px){/*min-width specifies minimum 768px & over*/
+    .news-input{
+        width: 50%;
+    }
+}
